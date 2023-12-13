@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Shuffle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Number Slide Game</h1>
+        <div id="game-instructions">
+            <p>Use arrow keys to slide the numbers into the empty space. Arrange the numbers in ascending order to win.</p>
+            <p id="status"></p>
+        </div>
+        <div id="p5-canvas"></div>
+        <button id="shuffle" onclick="shuffleTiles()">Shuffle</button>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
